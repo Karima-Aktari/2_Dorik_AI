@@ -194,7 +194,9 @@ a.border-btn {
   font-weight: 700;
 }
 
-.review-organization .heart {
+.review-organization,
+.happy-users,
+.heart {
   color: rgb(222, 35, 142);
 }
 
@@ -216,4 +218,8 @@ a.border-btn {
   margin: 0 30px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+.happy-users img {
+  max-height: 30px;
+  margin: 15px 10px;
 }
