@@ -23,13 +23,10 @@
             <div class="menu font-medium leading-[16px]">
               <ul class="flex md:flex-row flex-col items-center">
                 <li><a href="">✨ Dorik AI</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">Template</a></li>
-                <li><a href="">Pricing</a></li>
                 <li>
-                  <a href=""
-                    >Resources
-                    <!-- <svg
+                  <a href="" class="flex items-center"
+                    >Product
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -42,7 +39,28 @@
                         stroke-linejoin="round"
                         d="m19.5 8.25-7.5 7.5-7.5-7.5"
                       />
-                    </svg> -->
+                    </svg>
+                  </a>
+                </li>
+                <li><a href="">Template</a></li>
+                <li><a href="">Pricing</a></li>
+                <li>
+                  <a href="" class="flex items-center"
+                    >Resources
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                      />
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -219,7 +237,7 @@
           />
         </div>
 
-        <div class="flex justify-center items-center pb-[45px]">
+        <div class="flex justify-center items-center pb-[30px]">
           <img
             src="assets/img/imageremovebgpreview3-q_fvA.webp"
             class="w-[258px] h-[135px]"
@@ -227,23 +245,43 @@
           />
         </div>
 
-        <div class="intro-video">
+        <!-- Intro-Video -->
+        <div class="intro-video mt-[10px]">
           <video
             poster="assets/img/41829376516705076200196503870756626797345056n-0OU1W.webp"
             src="assets/img/Dorik-AI-Intro-720p-vG0YQ.mp4"
-          ></video>
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="play"
+              class="svg-inline--fa fa-play fa-fw icon"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+              data-testid="icon-test"
+            >
+              <path
+                fill="currentColor"
+                d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+              ></path>
+            </svg>
+          </video>
         </div>
       </div>
     </section>
+
+    <!-- Reviews -->
     <div class="reviews-section flex md:flex-row flex-col">
       <div class="single-review">
-        <div class="review">
+        <div class="review flex flex-col items-center">
           <div>
             <img
               src="assets/img/rsz_1screenshot_2022-07-20_at_21046_am_1775qlqn-fssiwV.webp"
             />
           </div>
-          <p>
+          <p class="text-[#45426e] text-lg leading-[27px] mb-[15px]">
             I can't tell you how much I love Dorik!<span
               class="heighlight-text"
             >
@@ -251,47 +289,62 @@
               a line of code.</span
             >
           </p>
-          <h2>Oday Mashalla</h2>
-          <p>Design Director @ humblebee</p>
+          <h2 class="text-[20px] leading-[28px] text-[#17134a] font-semibold">
+            Oday Mashalla
+          </h2>
+          <p class="text-sm text-[#45426e] font-normal leading-[21px]">
+            Design Director @ humblebee
+          </p>
         </div>
       </div>
       <div class="single-review">
-        <div class="review">
+        <div class="review flex flex-col items-center">
           <div>
             <img src="assets/img/1667061146730-PoXcN_.webp" />
           </div>
-          <p>
+          <p class="text-[#45426e] text-lg leading-[27px] mb-[15px]">
             <span class="heighlight-text"
               >One of the best website building tools.</span
             >
             <br />Great product!!
           </p>
-          <h2>Upen V.</h2>
-          <p>Founder @ Siteoly</p>
+          <h2 class="text-[20px] leading-[28px] text-[#17134a] font-semibold">
+            Upen V.
+          </h2>
+          <p class="text-sm text-[#45426e] font-normal leading-[21px]">
+            Founder @ Siteoly
+          </p>
         </div>
       </div>
       <div class="single-review">
-        <div class="review">
+        <div class="review flex flex-col items-center">
           <div>
             <img src="assets/img/1685951024237-jB_6kq.webp" />
           </div>
-          <p>
+          <p class="text-[#45426e] text-lg leading-[27px] mb-[15px]">
             I'm so in love with this tool!
             <span class="heighlight-text">
-              <br />Building websites has never been this <br />FAST and
-              EASY!</span
+              Building<br />
+              websites has never been this <br />FAST and EASY!</span
             >
           </p>
-          <h2>Laura Ang</h2>
-          <p>Design Fellow (ODD3), On Deck</p>
+          <h2 class="text-[20px] leading-[28px] text-[#17134a] font-semibold">
+            Laura Ang
+          </h2>
+          <p class="text-sm text-[#45426e] font-normal leading-[21px]">
+            Design Fellow (ODD3), On Deck
+          </p>
         </div>
       </div>
     </div>
 
     <!-- Loved by cool people from -->
 
-    <div class="review-organization">
-      <h2><span class="heart">♡</span> Loved by cool people from</h2>
+    <div class="review-organization container pb-[60px] px-6">
+      <h2 class="text-[20px] font-semibold leading-[28px] text-[#17134A]">
+        <span class="heart">♡</span>
+        Loved by cool people from
+      </h2>
       <div class="organization flex md:flex-row flex-col">
         <div>
           <img src="assets/img-organization/netflix_logo_rgb-wjeQyf.webp" />
@@ -327,5 +380,118 @@
         </div>
       </div>
     </div>
+
+    <!-- Transform Your Ideas into Reality with AI -->
+    <section class="w-[1180px] bg-[#FFF9F3] mx-auto">
+      <div class="p-[20px]">
+        <div class="px-[20px]">
+          <div class="flex justify-between border-b-[1px] border-[#cfcfd0]">
+            <div class="py-[25px]">
+              <h1
+                class="text-[50px] font-bold text-[#17134a] leading-[50px] w-[472.68px]"
+              >
+                Transform Your Ideas into Reality with AI
+              </h1>
+              <h2
+                class="text-[20px] font-normal leading-[30px] text-[#45426e] py-5"
+              >
+                Bring your creative vision to life with Dorik AI
+              </h2>
+              <ul class="text-[#45426e] text-lg font-medium leading-[27px]">
+                <li class="flex items-center gap-[4px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18px"
+                    height="18px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-check"
+                    color="#3A30BA"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Website Generation
+                </li>
+                <li class="flex items-center gap-[4px] py-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18px"
+                    height="18px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-check"
+                    color="#3A30BA"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Website Generation
+                </li>
+                <li class="flex items-center gap-[4px] pb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18px"
+                    height="18px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-check"
+                    color="#3A30BA"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Website Generation
+                </li>
+              </ul>
+
+              <button
+                class="flex items-center bg-[#3A30BA] px-[24px] py-[12px] text-base font-medium text-[#FFF] rounded-md leading-[24px] mt-5 mb-8"
+                href="https://app.dorik.com/templates/cms/create-site?utm_campaign=frictionless-site"
+              >
+                Try Dorik Now
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="arrow-right"
+                  class="svg-inline--fa fa-arrow-right fa-fw icon w-[15px] h-[12px] ml-[7px]"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  data-testid="icon-test"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="right py-[15px]">
+              <div class="w-[530px] h-[332px]">
+                <img src="assets/img/website-generation-1-GWTEAs.webp" alt="" />
+              </div>
+              <h2
+                class="text-center font-normal text-lg text-[#45426e] leading-[27px] py-4"
+              >
+                Prompt:
+                <span class="italic">"Build a website for my coffeeshop"</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
