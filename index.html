@@ -246,10 +246,12 @@
         </div>
 
         <!-- Intro-Video -->
-        <div class="intro-video mt-[10px]">
+        <!-- <div class="intro-video mt-[10px] overflow-hidden ratio">
           <video
             poster="assets/img/41829376516705076200196503870756626797345056n-0OU1W.webp"
             src="assets/img/Dorik-AI-Intro-720p-vG0YQ.mp4"
+            type="video/mp4"
+            class="object-cover"
           >
             <svg
               aria-hidden="true"
@@ -268,7 +270,43 @@
               ></path>
             </svg>
           </video>
+        </div> -->
+
+        <!--vvideo -->
+
+        <div
+          class="intro-video mt-6 relative border-[20px] w-[85%] mx-auto bg-[linear-gradient(130deg, rgba(155, 144, 196, 0.1) 0%, rgba(62, 67, 127, 0.2) 100%) bg-[no-repeat] rounded-[26px]"
+        >
+          <img
+            class="w-full mx-auto rounded-[20px] h-[470px] object-cover"
+            src="assets/img/41829376516705076200196503870756626797345056n-0OU1W.webp"
+            alt="video thumbnail"
+          />
+
+          <button
+            type="button"
+            class="absolute inset-0 flex items-center justify-center"
+          >
+            <div
+              class="bg-[#8C3BFC] text-white px-6 py-3 rounded-[10px] flex items-center justify-center duration-300 hover:bg-[#27A6FE]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                fill="currentColor"
+                class="bi bi-play-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"
+                />
+              </svg>
+            </div>
+          </button>
         </div>
+
+        <!-- vvvvvv -->
       </div>
     </section>
 
@@ -1303,6 +1341,12 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="b">
+      <div class="container">
+        <h2>Beautiful designs, Endless possibilities</h2>
       </div>
     </section>
   </body>

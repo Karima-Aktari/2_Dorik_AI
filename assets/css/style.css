@@ -154,10 +154,15 @@ a.border-btn {
   border: 20px solid #ede8e9;
   max-width: 85%;
   margin: 0 auto;
+  background-color: #ede8e9;
 }
 
-.intro-video video {
+.intro-video,
+video {
   border-radius: 20px;
+}
+.ratio {
+  aspect-ratio: var(--aspect-video);
 }
 
 .reviews-section {
