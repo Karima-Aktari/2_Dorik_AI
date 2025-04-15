@@ -235,6 +235,14 @@ video {
   background-position: center;
 } */
 
+.footer-bg {
+  background-image: url(../img/footer-bg-2_71chjwos-1_iyenu6o2.svg);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
+
 .hero-btn-footer {
   background: url("../img/button-bg_wqfy1ggx.svg");
   background-repeat: no-repeat;
